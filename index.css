@@ -8,11 +8,20 @@ body {
     background-color: #FFB700;
 }
 
-#lakers-logo {
-    width: 120px; /* Largura desejada para o logotipo do Lakers */
-    height: auto; /* Altura ajustada automaticamente para manter a proporção */
-    
+header {
+    background-color: #5D1D88; /* Cor de fundo do cabeçalho */
+    padding: 15px; /* Espaçamento interno do cabeçalho */
+    text-align: center;
   }
+
+
+#lakers-logo {
+    max-width: 130px; /* Largura máxima da logo */
+    height: auto; /* Altura automática mantendo as proporções */
+    display: block;
+    margin: 0 auto; /* Centralizar a logo horizontalmente */
+  }
+
 
 .container {
     display: flex;
