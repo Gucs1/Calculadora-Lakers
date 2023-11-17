@@ -14,6 +14,18 @@ header {
     text-align: center;
   }
 
+footer {
+    background-color: #5D1D88; /* Cor de fundo do cabeçalho */
+    padding: 15px; /* Espaçamento interno do cabeçalho */
+    text-align: center;
+  }
+
+ #Lakers-escrita {
+    max-width: 130px; /* Largura máxima da logo */
+    height: auto; /* Altura automática mantendo as proporções */
+    display: block;
+    margin: 0 auto; /* Centralizar a logo horizontalmente */
+  }
 
 #lakers-logo {
     max-width: 130px; /* Largura máxima da logo */
@@ -27,7 +39,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
 }
 
 .calculadora {
